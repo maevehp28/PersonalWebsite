@@ -1,0 +1,86 @@
+---
+title: "Predicting Alcoholic Status Using Vitals"
+author: 
+  - name: "Maeve Horan-Portelance"
+  - name: "John Wu"
+  - name: "Justin Noche"
+  - name: "Kanchan Raju"
+  - name: "Shashvat Patel"
+date: "December 17, 2023"
+description: "Using machine learning to predict alcoholic status based on vital health statistics."
+image: "alcohol.jpg"
+format: html
+---
+
+# Project Overview
+
+This project aims to develop a **machine learning model** to predict whether an individual is an **alcoholic or non-alcoholic** based on **vital health statistics**. The dataset, collected by the National Health Insurance Service in Korea, contains 26 predictor variables, including age, weight, hemoglobin levels, smoking status, and more. 
+
+We implemented several classification models and feature selection techniques to improve predictive performance. Our best model, an **XGBoost classifier with Hmisc imputation**, achieved a Kaggle score of 0.7315, in the top 20 on the class leaderboard.
+
+📄 [Download Full Report (PDF)](alcohol.pdf)
+
+---
+
+# Methods
+
+## Dataset and Preprocessing
+- Data sourced from the National Health Insurance Service in Korea.
+- Features include demographic, behavioral, and biological markers.
+- Applied **missing value imputation** due to ~7% missing values in most predictors.
+- Conducted **Exploratory Data Analysis (EDA)** using ggplot2 in R.
+
+## Missing Value Imputation
+We tested three different **missing data imputation** techniques:  
+- **MICE** (Multivariate Imputation by Chained Equations)  
+- **Hmisc** (Harrell Miscellaneous) imputation  
+- **Amelia imputation** (multiple imputation assuming normality)  
+
+Final imputed dataset was selected based on **cross-validation accuracy**.
+
+## Model Selection
+We tested multiple models to find the best-performing classifier:  
+- **Random Forest**: Kaggle Score **0.7294**  
+- **Logistic Regression**: Kaggle Score **0.7236**  
+- **XGBoost (Final Model)**: Kaggle Score **0.7315** (Best Performing Model)  
+
+We optimized the **XGBoost model** using:  
+- Gradient boosting techniques  
+- Feature importance scoring  
+- Hyperparameter tuning (learning rate, max depth, and tree count)
+
+---
+
+# Key Findings
+
+1. **Smoking status and hemoglobin levels were strong predictors of alcohol status.**  
+2. **Absences had a significant correlation with alcohol consumption.**  
+3. **Hmisc imputation improved predictive accuracy compared to MICE and Amelia.**  
+4. **XGBoost outperformed all other models**, making it the most reliable for classification.  
+5. **Gradient Boosting models provided better feature importance insights** than simpler regression-based models.  
+
+---
+
+# Conclusion
+
+This project demonstrated the potential of **machine learning in public health analytics**, particularly in predicting **alcohol consumption behavior based on physiological markers**. 
+
+Future research could explore:
+- Additional predictors (e.g., mental health, dietary factors).
+- Refinement of feature selection methods to improve classification accuracy.
+- Deep learning approaches for better feature extraction.
+
+---
+
+# Attachments
+
+📄 [Full Report (PDF)](alcohol.pdf)  
+📊 **R Code & Data** available upon request.
+
+---
+
+# References
+
+1. Almohalwas, Akram Mousa. *Predicting Alcoholic Status Using Person's Vitals Data Set for Predictive Analysis.*  
+2. World Health Organization (WHO). *Alcohol and Public Health Statistics (2022).*  
+3. Kaggle Dataset: National Health Insurance Service Korea  

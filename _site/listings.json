@@ -2,8 +2,9 @@
   {
     "listing": "/Projects.html",
     "items": [
-      "/Projects/Project1.html",
-      "/Projects/Project2.html"
+      "/Projects/Bayesian.html",
+      "/Projects/Academic_Performance.html",
+      "/Projects/Alcohol.html"
     ]
   }
 ]

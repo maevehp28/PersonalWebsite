@@ -1,0 +1,75 @@
+---
+title: "Bayesian Logistic Regression"
+author: "Maeve Horan-Portelance"
+date: "June 14, 2024"
+description: "A comparison of Bayesian and Frequentist logistic regression models using diabetes prediction data."
+image: "bayesian.jpg"
+format: html
+---
+
+# Project Overview
+
+This project explores the **Bayesian approach to logistic regression**, focusing on its theoretical foundations, practical applications, and comparison to frequentist methods. The analysis uses data from the National Institute of Diabetes, which predicts the onset of diabetes in Pima Indians based on diagnostic measures such as BMI, glucose levels, blood pressure, insulin levels, and family history.
+
+We tested four key research questions:
+1. **Performance comparison** between Bayesian and frequentist logistic models.
+2. **Accuracy assessment** of MICE vs. BRMS imputation for missing values.
+3. **Impact of prior selection** (Horseshoe vs. Laplace) on Bayesian regression.
+4. **Effect of adding interaction terms** on predictive performance.
+
+[📄 Download Full Report (PDF)](bayesian.pdf)
+
+---
+
+# Methods
+
+## **Frequentist Approach**
+- Used **Generalized Linear Models (GLM)** for logistic regression.
+- Handled missing data using **MICE (Multiple Imputation by Chained Equations)**.
+- Evaluated model accuracy using **confusion matrices, precision, recall, and AUC scores**.
+
+## **Bayesian Approach**
+- Implemented **Bayesian logistic regression** using the `brms` package in R.
+- Imputed missing data using both **MICE** and **BRMS-native imputation**.
+- Explored the impact of different **sparsity priors**:
+  - **Horseshoe Prior**: Encourages sparsity and shrinks unimportant coefficients.
+  - **Laplace Prior**: Applies uniform shrinkage to coefficients.
+- Used **Markov Chain Monte Carlo (MCMC)** sampling for posterior estimation.
+- Compared model performance using **posterior distributions, trace plots, and WAIC/AUC scores**.
+
+---
+
+# Key Findings
+
+1. Bayesian models outperformed frequentist models in most cases but were computationally more intensive.
+2. BRMS imputation handled missing data more effectively than MICE, leading to higher predictive accuracy.
+3. Laplace priors slightly outperformed horseshoe priors in this dataset, improving accuracy by over 2%.
+4. Adding interaction terms did not always improve model performance, and in some cases led to overfitting.
+5. Frequentist models remained more interpretable and easier to communicate compared to Bayesian methods.
+
+---
+
+# Conclusion
+
+This analysis demonstrated the advantages of Bayesian logistic regression, particularly in handling missing data and incorporating prior knowledge. However, computational complexity and the influence of prior selection remain challenges. In contrast, frequentist models provided a simpler, more intuitive approach that still achieved strong predictive performance.
+
+Future work could explore:  
+- **Cross-validation methods** to ensure model robustness.  
+- **Alternative prior distributions** for Bayesian models.  
+- **More complex interaction terms** to capture hidden relationships.  
+
+---
+
+# Attachments
+
+📄 [Full Report (PDF)](bayesian.pdf)  
+📊 **R Code & Data** available upon request.
+
+---
+
+# References
+
+1. Johnson, A. & Ott, M. *Introduction to Applied Bayesian Modeling.* CRC Press, 2021.  
+2. Bürkner, P. *Handle Missing Values with BRMS.* CRAN-R, 2024.  
+3. Lukman, P.A. *Bayesian Logistic Regression for Hypothyroid Prediction.* Journal of Physics, 2018.  
+4. O’Brien, S. & Dunson, D. *Bayesian Multivariate Logistic Regression.* Biometrics, 2004.  

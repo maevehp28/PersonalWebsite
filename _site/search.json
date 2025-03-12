@@ -21,32 +21,88 @@
     "text": "Additional Interests\n\nContemporary and jazz dance and choreography\nPlaying piano and jazz drums\nScreenwriting, storytelling, and other forms of creative writing\nRunning and hiking"
   },
   {
-    "objectID": "Project2.html",
-    "href": "Project2.html",
-    "title": "Project2",
-    "section": "",
-    "text": "print(102803)\n\n[1] 102803"
-  },
-  {
-    "objectID": "Projects/Project2.html",
-    "href": "Projects/Project2.html",
-    "title": "Project2",
-    "section": "",
-    "text": "print(102803)\n\n[1] 102803"
-  },
-  {
-    "objectID": "Projects/Project1.html",
-    "href": "Projects/Project1.html",
-    "title": "Project 1",
-    "section": "",
-    "text": "print(1:10)\n\n [1]  1  2  3  4  5  6  7  8  9 10"
-  },
-  {
     "objectID": "Projects.html",
     "href": "Projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Project 1\n\n\n\n\n\n\nMaeve Horan-Portelance\n\n\n\n\n\n\n\n\n\n\n\n\nProject2\n\n\n\n\n\n\nMaeve Horan-Portelance\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Bayesian Logistic Regression\n\n\nA comparison of Bayesian and Frequentist logistic regression models using diabetes prediction data.\n\n\n\nMaeve Horan-Portelance\n\n\nJun 14, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHigh School Academic Performance Analysis\n\n\nA multinomial logistic regression analysis of the relationship between demographics, study habits, and high school GPA.\n\n\n\nMaeve Horan-Portelance, Debanshi Misra, Anika Chowdhury, Angelo Desiderio, Ashley Chan\n\n\nDec 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPredicting Alcoholic Status Using Vitals\n\n\nUsing machine learning to predict alcoholic status based on vital health statistics.\n\n\n\nMaeve Horan-Portelance, John Wu, Justin Noche, Kanchan Raju, Shashvat Patel\n\n\nDec 17, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "Projects/Academic_Performance.html",
+    "href": "Projects/Academic_Performance.html",
+    "title": "High School Academic Performance Analysis",
+    "section": "",
+    "text": "This project explores how demographic, familial, and behavioral factors influence high school student academic performance. Using a dataset sourced from Kaggle, we analyzed predictors such as age, gender, parental education, study habits, extracurricular involvement, and absences to determine their impact on GPA.\nThe primary objective was to train and evaluate a multinomial logistic regression model to classify students into three GPA categories:\n- Low GPA: (&lt; 2.5)\n- Medium GPA: (2.5 - 3.0)\n- High GPA: (&gt; 3.0)\nOur analysis included feature selection, model validation, and cross-validation to improve predictive performance.\n📄 Download Full Report (PDF)"
+  },
+  {
+    "objectID": "Projects/Academic_Performance.html#dataset-and-feature-engineering.",
+    "href": "Projects/Academic_Performance.html#dataset-and-feature-engineering.",
+    "title": "High School Academic Performance Analysis",
+    "section": "Dataset and Feature Engineering.",
+    "text": "Dataset and Feature Engineering.\n\nThe dataset consists of high school student profiles, including demographic, academic, and extracurricular data.\n\nWe removed highly correlated variables using Variance Inflation Factor (VIF) analysis.\n\nThe final model included the following predictors:\n\nBehavioral factors: Study time, absences, tutoring, and extracurricular activities.\nDemographic factors: Age, gender, ethnicity, and parental education."
+  },
+  {
+    "objectID": "Projects/Academic_Performance.html#exploratory-data-analysis-eda",
+    "href": "Projects/Academic_Performance.html#exploratory-data-analysis-eda",
+    "title": "High School Academic Performance Analysis",
+    "section": "Exploratory Data Analysis (EDA)",
+    "text": "Exploratory Data Analysis (EDA)\n\nVisualized GPA distribution across age groups, gender, and ethnicity.\nExamined correlations between study habits, parental involvement, and GPA.\nBoxplots and scatterplots were used to assess trends in study time and absenteeism."
+  },
+  {
+    "objectID": "Projects/Academic_Performance.html#multinomial-logistic-regression-model",
+    "href": "Projects/Academic_Performance.html#multinomial-logistic-regression-model",
+    "title": "High School Academic Performance Analysis",
+    "section": "Multinomial Logistic Regression Model",
+    "text": "Multinomial Logistic Regression Model\n\nImplemented multinomial logistic regression to classify GPA into three categories.\nOdds ratios were calculated to interpret predictor significance.\nCross-validation (10-fold and LOOCV) was used to validate model performance.\nCompared results using Random Forest variable importance analysis."
+  },
+  {
+    "objectID": "Projects/Alcohol.html",
+    "href": "Projects/Alcohol.html",
+    "title": "Predicting Alcoholic Status Using Vitals",
+    "section": "",
+    "text": "This project aims to develop a machine learning model to predict whether an individual is an alcoholic or non-alcoholic based on vital health statistics. The dataset, collected by the National Health Insurance Service in Korea, contains 26 predictor variables, including age, weight, hemoglobin levels, smoking status, and more.\nWe implemented several classification models and feature selection techniques to improve predictive performance. Our best model, an XGBoost classifier with Hmisc imputation, achieved a Kaggle score of 0.7315, in the top 20 on the class leaderboard.\n📄 Download Full Report (PDF)"
+  },
+  {
+    "objectID": "Projects/Alcohol.html#dataset-and-preprocessing",
+    "href": "Projects/Alcohol.html#dataset-and-preprocessing",
+    "title": "Predicting Alcoholic Status Using Vitals",
+    "section": "Dataset and Preprocessing",
+    "text": "Dataset and Preprocessing\n\nData sourced from the National Health Insurance Service in Korea.\nFeatures include demographic, behavioral, and biological markers.\nApplied missing value imputation due to ~7% missing values in most predictors.\nConducted Exploratory Data Analysis (EDA) using ggplot2 in R."
+  },
+  {
+    "objectID": "Projects/Alcohol.html#missing-value-imputation",
+    "href": "Projects/Alcohol.html#missing-value-imputation",
+    "title": "Predicting Alcoholic Status Using Vitals",
+    "section": "Missing Value Imputation",
+    "text": "Missing Value Imputation\nWe tested three different missing data imputation techniques:\n- MICE (Multivariate Imputation by Chained Equations)\n- Hmisc (Harrell Miscellaneous) imputation\n- Amelia imputation (multiple imputation assuming normality)\nFinal imputed dataset was selected based on cross-validation accuracy."
+  },
+  {
+    "objectID": "Projects/Alcohol.html#model-selection",
+    "href": "Projects/Alcohol.html#model-selection",
+    "title": "Predicting Alcoholic Status Using Vitals",
+    "section": "Model Selection",
+    "text": "Model Selection\nWe tested multiple models to find the best-performing classifier:\n- Random Forest: Kaggle Score 0.7294\n- Logistic Regression: Kaggle Score 0.7236\n- XGBoost (Final Model): Kaggle Score 0.7315 (Best Performing Model)\nWe optimized the XGBoost model using:\n- Gradient boosting techniques\n- Feature importance scoring\n- Hyperparameter tuning (learning rate, max depth, and tree count)"
+  },
+  {
+    "objectID": "Projects/Bayesian.html",
+    "href": "Projects/Bayesian.html",
+    "title": "Bayesian Logistic Regression",
+    "section": "",
+    "text": "This project explores the Bayesian approach to logistic regression, focusing on its theoretical foundations, practical applications, and comparison to frequentist methods. The analysis uses data from the National Institute of Diabetes, which predicts the onset of diabetes in Pima Indians based on diagnostic measures such as BMI, glucose levels, blood pressure, insulin levels, and family history.\nWe tested four key research questions: 1. Performance comparison between Bayesian and frequentist logistic models. 2. Accuracy assessment of MICE vs. BRMS imputation for missing values. 3. Impact of prior selection (Horseshoe vs. Laplace) on Bayesian regression. 4. Effect of adding interaction terms on predictive performance.\n📄 Download Full Report (PDF)"
+  },
+  {
+    "objectID": "Projects/Bayesian.html#frequentist-approach",
+    "href": "Projects/Bayesian.html#frequentist-approach",
+    "title": "Bayesian Logistic Regression",
+    "section": "Frequentist Approach",
+    "text": "Frequentist Approach\n\nUsed Generalized Linear Models (GLM) for logistic regression.\nHandled missing data using MICE (Multiple Imputation by Chained Equations).\nEvaluated model accuracy using confusion matrices, precision, recall, and AUC scores."
+  },
+  {
+    "objectID": "Projects/Bayesian.html#bayesian-approach",
+    "href": "Projects/Bayesian.html#bayesian-approach",
+    "title": "Bayesian Logistic Regression",
+    "section": "Bayesian Approach",
+    "text": "Bayesian Approach\n\nImplemented Bayesian logistic regression using the brms package in R.\nImputed missing data using both MICE and BRMS-native imputation.\nExplored the impact of different sparsity priors:\n\nHorseshoe Prior: Encourages sparsity and shrinks unimportant coefficients.\nLaplace Prior: Applies uniform shrinkage to coefficients.\n\nUsed Markov Chain Monte Carlo (MCMC) sampling for posterior estimation.\nCompared model performance using posterior distributions, trace plots, and WAIC/AUC scores."
   },
   {
     "objectID": "index.html",

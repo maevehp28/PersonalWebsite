@@ -1,8 +1,0 @@
----
-title: "Project 1"
-author: "Maeve Horan-Portelance"
----
-
-```{r}
-print(1:10)
-```

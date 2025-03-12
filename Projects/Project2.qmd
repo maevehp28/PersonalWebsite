@@ -1,9 +1,0 @@
----
-title: "Project2"
-author: "Maeve Horan-Portelance"
----
-
-```{r}
-print(102803)
-```
-

@@ -1,0 +1,84 @@
+---
+title: "High School Academic Performance Analysis"
+author: 
+  - name: "Maeve Horan-Portelance"
+  - name: "Debanshi Misra"
+  - name: "Anika Chowdhury"
+  - name: "Angelo Desiderio"
+  - name: "Ashley Chan"
+date: "December 1, 2024"
+description: "A multinomial logistic regression analysis of the relationship between demographics, study habits, and high school GPA."
+image: "academic_performance.png"
+format: html
+---
+
+# Project Overview
+
+This project explores how demographic, familial, and behavioral factors influence high school student academic performance. Using a dataset sourced from Kaggle, we analyzed predictors such as age, gender, parental education, study habits, extracurricular involvement, and absences to determine their impact on GPA.
+
+The primary objective was to train and evaluate a **multinomial logistic regression model** to classify students into three GPA categories:  
+- **Low GPA**: (< 2.5)  
+- **Medium GPA**: (2.5 - 3.0)  
+- **High GPA**: (> 3.0)  
+
+Our analysis included feature selection, model validation, and cross-validation to improve predictive performance.
+
+[📄 Download Full Report (PDF)](academic_performance.pdf)
+
+---
+
+# Methods
+
+## Dataset and Feature Engineering. 
+- The dataset consists of high school student profiles, including demographic, academic, and extracurricular data.  
+- We removed highly correlated variables using Variance Inflation Factor (VIF) analysis.  
+- The final model included the following predictors:
+  - **Behavioral factors**: Study time, absences, tutoring, and extracurricular activities.
+  - **Demographic factors**: Age, gender, ethnicity, and parental education.
+
+## Exploratory Data Analysis (EDA)
+- **Visualized GPA distribution** across age groups, gender, and ethnicity.
+- **Examined correlations** between study habits, parental involvement, and GPA.
+- **Boxplots and scatterplots** were used to assess trends in study time and absenteeism.
+
+## Multinomial Logistic Regression Model
+- Implemented **multinomial logistic regression** to classify GPA into three categories.
+- **Odds ratios** were calculated to interpret predictor significance.
+- **Cross-validation** (10-fold and LOOCV) was used to validate model performance.
+- Compared results using **Random Forest** variable importance analysis.
+
+---
+
+# Key Findings
+
+1. **Demographic factors (age, gender, ethnicity) had little effect on GPA**, suggesting that behavioral factors are stronger predictors of academic performance.
+2. **Absences had a strong negative correlation with GPA**—students with frequent absences were significantly more likely to fall into the low GPA category.
+3. **Study time and tutoring were positively associated with GPA**, with students who received tutoring being over 13 times more likely to achieve a high GPA.
+4. **Extracurricular activities, sports, and music participation were linked to higher GPA**, with students in multiple activities performing better academically.
+5. **Cross-validation showed high model accuracy (~87%)**, indicating that our model generalizes well.
+
+---
+
+# Conclusion
+
+Our analysis highlights the importance of study habits, tutoring, and extracurricular involvement in predicting student success. Schools should:
+- Implement structured academic support programs to help struggling students.
+- Encourage active participation in extracurricular activities.
+- Develop attendance incentive programs to reduce absenteeism.
+
+Despite some limitations (such as dataset imbalance), this model provides valuable insights into academic performance predictors, helping educators and policymakers design data-driven interventions.
+
+---
+
+# Attachments
+
+📄 [Full Report (PDF)](academic_performance.pdf)  
+📊 **R Code & Data** available upon request.
+
+---
+
+# References
+
+1. Kaggle Student Performance Dataset  
+2. Gelman, A. & Hill, J. *Data Analysis Using Regression and Multilevel/Hierarchical Models*  
+3. James, G. et al. *An Introduction to Statistical Learning*  

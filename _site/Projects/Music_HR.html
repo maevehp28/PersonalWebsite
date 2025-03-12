@@ -6,8 +6,13 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Maeve Horan-Portelance">
+<meta name="author" content="Olivia Weisiger">
+<meta name="author" content="Saaya Sitlani">
+<meta name="dcterms.date" content="2023-06-17">
+<meta name="description" content="A statistical analysis on the effects of music type and listening duration on heart rate changes.">
 
-<title>Projects – Maeve Horan-Portelance</title>
+<title>Exploring the Impact of Different Music Types on Heart Rate – Maeve Horan-Portelance</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +28,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6bbb2ee3340c67b6da55fdc5589aeeb3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-6bbb2ee3340c67b6da55fdc5589aeeb3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,67 +71,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -138,7 +83,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Maeve Horan-Portelance</span>
     </a>
   </div>
@@ -149,15 +94,15 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./Projects.html" aria-current="page"> 
+    <a class="nav-link" href="../Projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
 </ul>
@@ -171,22 +116,66 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#project-overview" id="toc-project-overview" class="nav-link active" data-scroll-target="#project-overview">Project Overview</a></li>
+  <li><a href="#research-questions" id="toc-research-questions" class="nav-link" data-scroll-target="#research-questions">Research Questions</a></li>
+  <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a>
+  <ul class="collapse">
+  <li><a href="#study-design" id="toc-study-design" class="nav-link" data-scroll-target="#study-design"><strong>Study Design</strong></a></li>
+  <li><a href="#participants" id="toc-participants" class="nav-link" data-scroll-target="#participants"><strong>Participants</strong></a></li>
+  <li><a href="#data-collection-preprocessing" id="toc-data-collection-preprocessing" class="nav-link" data-scroll-target="#data-collection-preprocessing"><strong>Data Collection &amp; Preprocessing</strong></a></li>
+  </ul></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a>
+  <ul class="collapse">
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings"><strong>Key Findings</strong></a></li>
+  <li><a href="#statistical-analysis" id="toc-statistical-analysis" class="nav-link" data-scroll-target="#statistical-analysis"><strong>Statistical Analysis</strong></a></li>
+  </ul></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion">Discussion</a>
+  <ul class="collapse">
+  <li><a href="#limitations" id="toc-limitations" class="nav-link" data-scroll-target="#limitations"><strong>Limitations</strong></a></li>
+  <li><a href="#future-research" id="toc-future-research" class="nav-link" data-scroll-target="#future-research"><strong>Future Research</strong></a></li>
+  </ul></li>
+  <li><a href="#attachments" id="toc-attachments" class="nav-link" data-scroll-target="#attachments">Attachments</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects</h1>
+<h1 class="title">Exploring the Impact of Different Music Types on Heart Rate</h1>
 </div>
 
+<div>
+  <div class="description">
+    A statistical analysis on the effects of music type and listening duration on heart rate changes.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Maeve Horan-Portelance </p>
+             <p>Olivia Weisiger </p>
+             <p>Saaya Sitlani </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 17, 2023</p>
+    </div>
+  </div>
   
     
   </div>
@@ -196,117 +185,160 @@ window.Quarto = {
 </header>
 
 
+<section id="project-overview" class="level1">
+<h1>Project Overview</h1>
+<p>This study examines the <strong>effect of different music genres on heart rate</strong>, focusing on <strong>classical music, heavy metal, and a control group (no music)</strong>. Additionally, we explore the role of <strong>listening duration</strong> (10 minutes vs.&nbsp;20 minutes) in affecting heart rate changes.</p>
+<p>📄 <a href="music_hr.pdf">Download Full Report (PDF)</a></p>
+<hr>
+</section>
+<section id="research-questions" class="level1">
+<h1>Research Questions</h1>
+<ol type="1">
+<li><strong>Does the type of music (classical vs.&nbsp;heavy metal) significantly impact heart rate?</strong>
+<ul>
+<li>Based on previous research, classical music is expected to lower heart rate, while heavy metal is expected to increase it.</li>
+</ul></li>
+<li><strong>Does listening duration (10 vs.&nbsp;20 minutes) amplify the effect on heart rate?</strong>
+<ul>
+<li>Prior studies suggest that longer exposure may enhance the physiological response to music.</li>
+</ul></li>
+</ol>
+<hr>
+</section>
+<section id="methods" class="level1">
+<h1>Methods</h1>
+<section id="study-design" class="level2">
+<h2 class="anchored" data-anchor-id="study-design"><strong>Study Design</strong></h2>
+<ul>
+<li><strong>Two-Factor Blocked Experiment</strong>:
+<ul>
+<li>Factor 1: <strong>Music Type</strong> (<em>Classical, Heavy Metal, Control</em>)<br>
+</li>
+<li>Factor 2: <strong>Listening Duration</strong> (<em>10 minutes vs.&nbsp;20 minutes</em>)<br>
+</li>
+</ul></li>
+<li><strong>Blocking Variable:</strong> Gender (to remove variability in resting heart rates).<br>
+</li>
+<li><strong>Response Variable:</strong> Change in heart rate (bpm before vs.&nbsp;after treatment).</li>
+</ul>
+</section>
+<section id="participants" class="level2">
+<h2 class="anchored" data-anchor-id="participants"><strong>Participants</strong></h2>
+<ul>
+<li><strong>144 participants</strong> from Bonne Santé Island, evenly split by gender.<br>
+</li>
+<li>Randomly assigned to one of six treatment groups (music type × duration).</li>
+</ul>
+</section>
+<section id="data-collection-preprocessing" class="level2">
+<h2 class="anchored" data-anchor-id="data-collection-preprocessing"><strong>Data Collection &amp; Preprocessing</strong></h2>
+<ul>
+<li>Heart rate measured immediately before and after listening to assigned music.<br>
+</li>
+<li>Boxplots and scatterplots used for initial exploratory data analysis (EDA).<br>
+</li>
+<li>Missing data imputed using appropriate statistical techniques.</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="results" class="level1">
+<h1>Results</h1>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings"><strong>Key Findings</strong></h2>
+<ol type="1">
+<li><strong>Music type significantly affects heart rate</strong> (p &lt; 0.001).
+<ul>
+<li>Heavy metal <strong>increases</strong> heart rate significantly compared to both control and classical.<br>
+</li>
+<li>No significant difference between classical and control.</li>
+</ul></li>
+<li><strong>Listening duration has a small but significant effect</strong> (p = 0.021).
+<ul>
+<li><strong>20-minute listening sessions</strong> produced <strong>greater heart rate changes</strong> than 10-minute sessions.</li>
+</ul></li>
+<li><strong>No significant interaction between music type and listening duration</strong> (p = 0.18).</li>
+</ol>
+</section>
+<section id="statistical-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="statistical-analysis"><strong>Statistical Analysis</strong></h2>
+<ul>
+<li><strong>ANOVA Results</strong>:
+<ul>
+<li>Music Type: <strong><em>p &lt; 0.001</em></strong> (Significant)<br>
+</li>
+<li>Listening Duration: <em>p = 0.021</em> (Moderately significant)<br>
+</li>
+<li>Gender: <em>p = 0.066</em> (Marginal significance)<br>
+</li>
+<li>Interaction Term: <em>p = 0.179</em> (Not significant)</li>
+</ul></li>
+<li><strong>Post-Hoc Tukey HSD Test</strong> confirmed:
+<ul>
+<li>Significant difference between <strong>heavy metal vs.&nbsp;classical (p &lt; 0.001)</strong>.<br>
+</li>
+<li>No significant difference between <strong>classical vs.&nbsp;control (p = 0.89)</strong>.</li>
+</ul></li>
+<li><strong>Diagnostic Plots</strong> revealed <strong>two outliers</strong>, which were removed for final analysis.</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="discussion" class="level1">
+<h1>Discussion</h1>
+<ol type="1">
+<li><strong>Heavy metal significantly increases heart rate</strong>, while <strong>classical music does not lower heart rate relative to the control</strong>.<br>
+</li>
+<li><strong>Longer listening durations</strong> slightly <strong>increase the heart rate effect</strong> but do not change the <strong>direction of the impact</strong>.<br>
+</li>
+<li><strong>Gender was a significant blocking factor</strong>, confirming that male and female participants have <strong>different baseline heart rates</strong>.</li>
+</ol>
+<section id="limitations" class="level3">
+<h3 class="anchored" data-anchor-id="limitations"><strong>Limitations</strong></h3>
+<ul>
+<li><strong>Participants were not randomly selected</strong>, limiting external validity.<br>
+</li>
+<li><strong>Limited to two music genres</strong>; future studies should examine additional genres (pop, EDM, country, etc.).<br>
+</li>
+<li><strong>Sample size could be increased</strong> to improve statistical power.</li>
+</ul>
+</section>
+<section id="future-research" class="level3">
+<h3 class="anchored" data-anchor-id="future-research"><strong>Future Research</strong></h3>
+<ul>
+<li>How do <strong>different music genres</strong> affect <strong>other physiological factors</strong> (e.g., blood pressure, mood)?<br>
+</li>
+<li>Can music influence <strong>concentration and academic performance</strong> while studying?<br>
+</li>
+<li>Is there a connection between <strong>music preferences and mental health</strong>?</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="attachments" class="level1">
+<h1>Attachments</h1>
+<p>📄 <a href="music_hr.pdf">Full Report (PDF)</a><br>
+📊 <strong>R Code &amp; Data</strong> available upon request.</p>
+<hr>
+</section>
+<section id="references" class="level1">
+<h1>References</h1>
+<ol type="1">
+<li>Baker, F., &amp; Bor, W. <em>Can Music Preference Indicate Mental Health Status in Young People?</em> Australas Psychiatry, 2008.<br>
+</li>
+<li>Darki, C. et al.&nbsp;<em>The Effect of Classical Music on Heart Rate, Blood Pressure, and Mood.</em> Cureus, 2022.<br>
+</li>
+<li>Kumar, N. <em>The Effect of Listening to Music on Concentration and Academic Performance of Students.</em> 2016.<br>
+</li>
+<li>Roque, A. et al.&nbsp;<em>The Effects of Auditory Stimulation with Music on Heart Rate Variability in Healthy Women.</em> 2013.<br>
+</li>
+<li>Sills, D. <em>Does Music Directly Affect a Person’s Heart Rate?</em> Medical Education Faculty Publications, 2015.</li>
+</ol>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1718348400000" data-listing-file-modified-sort="1741810093241" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="426">
-<a href="./Projects/Bayesian.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./Projects/bayesian.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Bayesian Logistic Regression
-</h5>
-<div class="card-text listing-description">
-A comparison of Bayesian and Frequentist logistic regression models using diabetes prediction data.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Maeve Horan-Portelance
-</div>
-<div class="listing-date">
-Jun 14, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1686985200000" data-listing-file-modified-sort="1741810696985" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="665">
-<a href="./Projects/Music_HR.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./Projects/music_hr.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Exploring the Impact of Different Music Types on Heart Rate
-</h5>
-<div class="card-text listing-description">
-A statistical analysis on the effects of music type and listening duration on heart rate changes.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Maeve Horan-Portelance, Olivia Weisiger, Saaya Sitlani
-</div>
-<div class="listing-date">
-Jun 17, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1733040000000" data-listing-file-modified-sort="1741808564295" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="443">
-<a href="./Projects/Academic_Performance.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./Projects/academic_performance.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-High School Academic Performance Analysis
-</h5>
-<div class="card-text listing-description">
-A multinomial logistic regression analysis of the relationship between demographics, study habits, and high school GPA.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Maeve Horan-Portelance, Debanshi Misra, Anika Chowdhury, Angelo Desiderio, Ashley Chan
-</div>
-<div class="listing-date">
-Dec 1, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-listing-date-sort="1702800000000" data-listing-file-modified-sort="1741808638834" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="400">
-<a href="./Projects/Alcohol.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./Projects/alcohol.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Predicting Alcoholic Status Using Vitals
-</h5>
-<div class="card-text listing-description">
-Using machine learning to predict alcoholic status based on vital health statistics.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Maeve Horan-Portelance, John Wu, Justin Noche, Kanchan Raju, Shashvat Patel
-</div>
-<div class="listing-date">
-Dec 17, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

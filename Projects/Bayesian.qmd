@@ -11,11 +11,11 @@ format: html
 
 This project explores the **Bayesian approach to logistic regression**, focusing on its theoretical foundations, practical applications, and comparison to frequentist methods. The analysis uses data from the National Institute of Diabetes, which predicts the onset of diabetes in Pima Indians based on diagnostic measures such as BMI, glucose levels, blood pressure, insulin levels, and family history.
 
-We tested four key research questions:
-1. **Performance comparison** between Bayesian and frequentist logistic models.
-2. **Accuracy assessment** of MICE vs. BRMS imputation for missing values.
-3. **Impact of prior selection** (Horseshoe vs. Laplace) on Bayesian regression.
-4. **Effect of adding interaction terms** on predictive performance.
+We tested four key research areas:  
+1. **Performance comparison** between Bayesian and frequentist logistic models.  
+2. **Accuracy assessment** of MICE vs. BRMS imputation for missing values.  
+3. **Impact of prior selection** (Horseshoe vs. Laplace) on Bayesian regression.  
+4. **Effect of adding interaction terms** on predictive performance.  
 
 [📄 Download Full Report (PDF)](bayesian.pdf)
 

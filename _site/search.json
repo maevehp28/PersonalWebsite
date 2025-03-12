@@ -25,7 +25,7 @@
     "href": "Projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Bayesian Logistic Regression\n\n\nA comparison of Bayesian and Frequentist logistic regression models using diabetes prediction data.\n\n\n\nMaeve Horan-Portelance\n\n\nJun 14, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHigh School Academic Performance Analysis\n\n\nA multinomial logistic regression analysis of the relationship between demographics, study habits, and high school GPA.\n\n\n\nMaeve Horan-Portelance, Debanshi Misra, Anika Chowdhury, Angelo Desiderio, Ashley Chan\n\n\nDec 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPredicting Alcoholic Status Using Vitals\n\n\nUsing machine learning to predict alcoholic status based on vital health statistics.\n\n\n\nMaeve Horan-Portelance, John Wu, Justin Noche, Kanchan Raju, Shashvat Patel\n\n\nDec 17, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Bayesian Logistic Regression\n\n\nA comparison of Bayesian and Frequentist logistic regression models using diabetes prediction data.\n\n\n\nMaeve Horan-Portelance\n\n\nJun 14, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExploring the Impact of Different Music Types on Heart Rate\n\n\nA statistical analysis on the effects of music type and listening duration on heart rate changes.\n\n\n\nMaeve Horan-Portelance, Olivia Weisiger, Saaya Sitlani\n\n\nJun 17, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHigh School Academic Performance Analysis\n\n\nA multinomial logistic regression analysis of the relationship between demographics, study habits, and high school GPA.\n\n\n\nMaeve Horan-Portelance, Debanshi Misra, Anika Chowdhury, Angelo Desiderio, Ashley Chan\n\n\nDec 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPredicting Alcoholic Status Using Vitals\n\n\nUsing machine learning to predict alcoholic status based on vital health statistics.\n\n\n\nMaeve Horan-Portelance, John Wu, Justin Noche, Kanchan Raju, Shashvat Patel\n\n\nDec 17, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "Projects/Academic_Performance.html",
@@ -84,11 +84,53 @@
     "text": "Model Selection\nWe tested multiple models to find the best-performing classifier:\n- Random Forest: Kaggle Score 0.7294\n- Logistic Regression: Kaggle Score 0.7236\n- XGBoost (Final Model): Kaggle Score 0.7315 (Best Performing Model)\nWe optimized the XGBoost model using:\n- Gradient boosting techniques\n- Feature importance scoring\n- Hyperparameter tuning (learning rate, max depth, and tree count)"
   },
   {
+    "objectID": "Projects/Music_HR.html",
+    "href": "Projects/Music_HR.html",
+    "title": "Exploring the Impact of Different Music Types on Heart Rate",
+    "section": "",
+    "text": "This study examines the effect of different music genres on heart rate, focusing on classical music, heavy metal, and a control group (no music). Additionally, we explore the role of listening duration (10 minutes vs. 20 minutes) in affecting heart rate changes.\n📄 Download Full Report (PDF)"
+  },
+  {
+    "objectID": "Projects/Music_HR.html#study-design",
+    "href": "Projects/Music_HR.html#study-design",
+    "title": "Exploring the Impact of Different Music Types on Heart Rate",
+    "section": "Study Design",
+    "text": "Study Design\n\nTwo-Factor Blocked Experiment:\n\nFactor 1: Music Type (Classical, Heavy Metal, Control)\n\nFactor 2: Listening Duration (10 minutes vs. 20 minutes)\n\n\nBlocking Variable: Gender (to remove variability in resting heart rates).\n\nResponse Variable: Change in heart rate (bpm before vs. after treatment)."
+  },
+  {
+    "objectID": "Projects/Music_HR.html#participants",
+    "href": "Projects/Music_HR.html#participants",
+    "title": "Exploring the Impact of Different Music Types on Heart Rate",
+    "section": "Participants",
+    "text": "Participants\n\n144 participants from Bonne Santé Island, evenly split by gender.\n\nRandomly assigned to one of six treatment groups (music type × duration)."
+  },
+  {
+    "objectID": "Projects/Music_HR.html#data-collection-preprocessing",
+    "href": "Projects/Music_HR.html#data-collection-preprocessing",
+    "title": "Exploring the Impact of Different Music Types on Heart Rate",
+    "section": "Data Collection & Preprocessing",
+    "text": "Data Collection & Preprocessing\n\nHeart rate measured immediately before and after listening to assigned music.\n\nBoxplots and scatterplots used for initial exploratory data analysis (EDA).\n\nMissing data imputed using appropriate statistical techniques."
+  },
+  {
+    "objectID": "Projects/Music_HR.html#key-findings",
+    "href": "Projects/Music_HR.html#key-findings",
+    "title": "Exploring the Impact of Different Music Types on Heart Rate",
+    "section": "Key Findings",
+    "text": "Key Findings\n\nMusic type significantly affects heart rate (p &lt; 0.001).\n\nHeavy metal increases heart rate significantly compared to both control and classical.\n\nNo significant difference between classical and control.\n\nListening duration has a small but significant effect (p = 0.021).\n\n20-minute listening sessions produced greater heart rate changes than 10-minute sessions.\n\nNo significant interaction between music type and listening duration (p = 0.18)."
+  },
+  {
+    "objectID": "Projects/Music_HR.html#statistical-analysis",
+    "href": "Projects/Music_HR.html#statistical-analysis",
+    "title": "Exploring the Impact of Different Music Types on Heart Rate",
+    "section": "Statistical Analysis",
+    "text": "Statistical Analysis\n\nANOVA Results:\n\nMusic Type: p &lt; 0.001 (Significant)\n\nListening Duration: p = 0.021 (Moderately significant)\n\nGender: p = 0.066 (Marginal significance)\n\nInteraction Term: p = 0.179 (Not significant)\n\nPost-Hoc Tukey HSD Test confirmed:\n\nSignificant difference between heavy metal vs. classical (p &lt; 0.001).\n\nNo significant difference between classical vs. control (p = 0.89).\n\nDiagnostic Plots revealed two outliers, which were removed for final analysis."
+  },
+  {
     "objectID": "Projects/Bayesian.html",
     "href": "Projects/Bayesian.html",
     "title": "Bayesian Logistic Regression",
     "section": "",
-    "text": "This project explores the Bayesian approach to logistic regression, focusing on its theoretical foundations, practical applications, and comparison to frequentist methods. The analysis uses data from the National Institute of Diabetes, which predicts the onset of diabetes in Pima Indians based on diagnostic measures such as BMI, glucose levels, blood pressure, insulin levels, and family history.\nWe tested four key research questions: 1. Performance comparison between Bayesian and frequentist logistic models. 2. Accuracy assessment of MICE vs. BRMS imputation for missing values. 3. Impact of prior selection (Horseshoe vs. Laplace) on Bayesian regression. 4. Effect of adding interaction terms on predictive performance.\n📄 Download Full Report (PDF)"
+    "text": "This project explores the Bayesian approach to logistic regression, focusing on its theoretical foundations, practical applications, and comparison to frequentist methods. The analysis uses data from the National Institute of Diabetes, which predicts the onset of diabetes in Pima Indians based on diagnostic measures such as BMI, glucose levels, blood pressure, insulin levels, and family history.\nWe tested four key research areas:\n1. Performance comparison between Bayesian and frequentist logistic models.\n2. Accuracy assessment of MICE vs. BRMS imputation for missing values.\n3. Impact of prior selection (Horseshoe vs. Laplace) on Bayesian regression.\n4. Effect of adding interaction terms on predictive performance.\n📄 Download Full Report (PDF)"
   },
   {
     "objectID": "Projects/Bayesian.html#frequentist-approach",

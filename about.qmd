@@ -1,9 +1,84 @@
 ---
-title: "About"
+title: "About Me"
+format: html
 ---
 
-About this site
+::: {.grid}
+::: {.g-col-4}
+![ ](headshot.jpeg){width=275px style="border-radius: 10px;"}
+:::
+::: {.g-col-8}
+My name is Maeve Horan-Portelance, and I am a fourth-year undergraduate student at UCLA, majoring in Statistics and Data Science with minors in Global Health and Film, Television, and Digital Media.  
 
-```{r}
-1 + 1
-```
+I am interested in data analytics across multiple disciplines, including healthcare, business intelligence, and media analytics. My background combines quantitative problem-solving with creative storytelling, allowing me to analyze complex data while communicating meaningful insights.
+
+I have experience in data analysis, regression modeling, machine learning, data visualization, and database management. My technical skills include R, Python, C++, SQL, Snowflake, Tableau, and MicroStrategy. Additionally, my background in creative writing, dance, and jazz drumming gives me a unique approach to problem-solving.  
+
+Outside of school and work, I enjoy dancing--after 15 years of competitive dance, I joined UCLA's Icarus Contemporary Dance Company, for which I currently serve as Finance Director (June 2023 - present), as well as choreograph and perform. I also enjoy playing the piano and drums, running, hiking, and exploring LA!
+:::
+:::
+
+---
+
+# Education
+
+::: {.grid}
+::: {.g-col-4}
+![ ](ucla2.jpg){width=325px style="border-radius: 10px;"}
+:::
+::: {.g-col-8}
+### University of California, Los Angeles    
+**Bachelor of Science in Statistics and Data Science**  
+Minors: Global Health; Film, Television & Digital Media  
+Expected Graduation: June 2025  
+:::
+:::
+
+## Relevant Coursework
+- **Stats 20**: Introduction to Statistical Programming with R  
+- **Stats 100A**: Introduction to Probability  
+- **Stats 100B**: Introduction to Mathematical Statistics 
+- **Stats 100C**: Linear Models  
+- **Stats 101A**: Introduction to Data Analysis and Regression   
+- **Stats 101B**: Introduction to Design and Analysis of Experiments 
+- **Stats 101C**: Introduction to Statistical Models and Data Mining 
+- **Stats 102A**: Introduction to Computational Statistics with R 
+- **Stats 102B**: Introduction to Computation and Optimization 
+- **Stats 102C**: Monte Carlo Methods  
+- **Stats C116**: Social Statistics (Bayesian Analysis)  
+- **Stats 112**: Statistics: Window for Understanding Diversity  
+---
+
+# Skills, Certifications and Interests
+
+### Skills
+- Programming languages: R, Python, C++, SQL  
+- Data Platforms & Visualization: Snowflake, Tableau, MicroStrategy  
+- Statistical Modeling, Data Analysis, Machine Learning, Web Scraping, Text Mining
+- Communication, leadership, collaboration, problem solving
+
+### Certifications
+- IBM Accelerate Client Engineering and Technical Sales Certification (Aug 2023)
+- IBM Python for Data Science and AI Certification (Aug 2023)  
+- Google Data Analytics Certification (Sept 2023) 
+
+## Additional Interests
+- Contemporary and jazz dance and choreography 
+- Playing piano and jazz drums
+- Screenwriting, storytelling, and other forms of creative writing
+- Running and hiking
+
+---
+
+# Connect with me!
+
+::: {.grid}
+::: {.g-col-4}
+![ ](dance.jpeg){width=325px style="border-radius: 10px;"}
+:::
+::: {.g-col-8}
+
+- **Email:** [maevehp28@gmail.com](mailto:maevehp28@gmail.com)  
+- **LinkedIn:** [linkedin.com/in/maevehp](https://www.linkedin.com/in/maevehp/)  
+:::
+:::

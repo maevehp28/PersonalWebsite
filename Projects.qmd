@@ -1,7 +1,7 @@
 ---
 title: "Projects"
 listing:
-  type : table
+  type : grid
   contents:
     - "Projects/*.qmd"
 ---

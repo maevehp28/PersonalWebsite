@@ -2,9 +2,23 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About Me",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "My name is Maeve Horan-Portelance, and I am a fourth-year undergraduate student at UCLA, majoring in Statistics and Data Science with minors in Global Health and Film, Television, and Digital Media.\nI am interested in data analytics across multiple disciplines, including healthcare, business intelligence, and media analytics. My background combines quantitative problem-solving with creative storytelling, allowing me to analyze complex data while communicating meaningful insights.\nI have experience in data analysis, regression modeling, machine learning, data visualization, and database management. My technical skills include R, Python, C++, SQL, Snowflake, Tableau, and MicroStrategy. Additionally, my background in creative writing, dance, and jazz drumming gives me a unique approach to problem-solving.\nOutside of school and work, I enjoy dancing–after 15 years of competitive dance, I joined UCLA’s Icarus Contemporary Dance Company, for which I currently serve as Finance Director (June 2023 - present), as well as choreograph and perform. I also enjoy playing the piano and drums, running, hiking, and exploring LA!"
+  },
+  {
+    "objectID": "about.html#relevant-coursework",
+    "href": "about.html#relevant-coursework",
+    "title": "About Me",
+    "section": "Relevant Coursework",
+    "text": "Relevant Coursework\n\nStats 20: Introduction to Statistical Programming with R\n\nStats 100A: Introduction to Probability\n\nStats 100B: Introduction to Mathematical Statistics\nStats 100C: Linear Models\n\nStats 101A: Introduction to Data Analysis and Regression\n\nStats 101B: Introduction to Design and Analysis of Experiments\nStats 101C: Introduction to Statistical Models and Data Mining\nStats 102A: Introduction to Computational Statistics with R\nStats 102B: Introduction to Computation and Optimization\nStats 102C: Monte Carlo Methods\n\nStats C116: Social Statistics (Bayesian Analysis)\n\nStats 112: Statistics: Window for Understanding Diversity"
+  },
+  {
+    "objectID": "about.html#additional-interests",
+    "href": "about.html#additional-interests",
+    "title": "About Me",
+    "section": "Additional Interests",
+    "text": "Additional Interests\n\nContemporary and jazz dance and choreography\nPlaying piano and jazz drums\nScreenwriting, storytelling, and other forms of creative writing\nRunning and hiking"
   },
   {
     "objectID": "Project2.html",
@@ -32,27 +46,27 @@
     "href": "Projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nProject 1\n\n\nMaeve Horan-Portelance\n\n\n\n\nProject2\n\n\nMaeve Horan-Portelance\n\n\n\n\n\nNo matching items"
+    "text": "Project 1\n\n\n\n\n\n\nMaeve Horan-Portelance\n\n\n\n\n\n\n\n\n\n\n\n\nProject2\n\n\n\n\n\n\nMaeve Horan-Portelance\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Maeve Horan-Portelance",
     "section": "",
-    "text": "Maeve Horan-Portelance is a fourth-year undergraduate at UCLA studying Statistics and Data Science with a minor in Global Health. She is interested in data analytics across all fields, and enjoys combining her quantitative skills with her creative abilities. Maeve has extensive experience in data analysis, experimental design, data mining, statistical modeling, machine learning, R, C++, Python, SQL, and MicroStrategy, and is eager to use this knowledge in future positions. Download my resume here!"
+    "text": "Maeve Horan-Portelance is an undergraduate student at UCLA studying Statistics and Data Science with minors in Global Health and Film, TV and Digital Media. She has a strong interest in data analytics and enjoys combining her quantitative skills and creative abilities to solve complex problems.\nShe has both work and educational experience in data analysis, experimental design, data mining, statistical modeling, and machine learning. She is proficient in R, Python, C++, SQL, Tableau and MicroStrategy.\nDownload my resume."
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
     "title": "Maeve Horan-Portelance",
     "section": "Education",
-    "text": "Education\nUniversity of California, Los Angeles | Los Angeles, CA B.S. in Statistics and Data Science | Sept 2021 - June 2025"
+    "text": "Education\nUniversity of California, Los Angeles (UCLA)\nLos Angeles, CA\nBachelor of Science in Statistics and Data Science\nMinors: Global Health; Film, TV and Digital Media\nSeptember 2021 – June 2025\nGPA: 3.99"
   },
   {
     "objectID": "index.html#experience",
     "href": "index.html#experience",
     "title": "Maeve Horan-Portelance",
     "section": "Experience",
-    "text": "Experience\nUCLA College Academic Counseling | Lead Undergraduate Data Analyst and Peer Counselor | Sept 2023 - Present\nTravelers | Decision Science Intern | June 2024 - Aug 2024\nIBM Accelerate | Program Participant, Client Engineering | June 2023 - Aug 2023\nDavid Geffen School of Medicine | Undergraduate Research Intern, Biomedical Informatics | Oct 2022 - Oct 2023\nPioneer Financial Group | Analytics Intern | June 2022 - Sept 2022"
+    "text": "Experience\nUCLA College Academic Counseling | Los Angeles, CA\nLead Undergraduate Data Analyst and Peer Counselor\nSeptember 2023 – Present\nTravelers Insurance | Hartford, CT\nDecision Science Intern | Business Insights & Analytics LDP\nJune 2024 – August 2024\nIBM Accelerate | Remote\nProgram Participant | Client Engineering and Technical Sales June 2023 – August 2023\nDavid Geffen School of Medicine | Los Angeles, CA\nUndergraduate Research Intern | Biomedical Informatics\nOctober 2022 – October 2023\nPioneer Financial Group | Windsor, CT\nAnalytics Intern\nJune 2022 – September 2022"
   }
 ]

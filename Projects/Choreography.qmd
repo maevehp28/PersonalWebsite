@@ -3,50 +3,35 @@ title: "Choreography Projects"
 author: 
   - name: "Maeve Horan-Portelance"
 date: "May 22, 2024"
-description: "Original choreography performed at Icarus Contemporary’s annual showcase and a UCLA basketball halftime show."
+description: "Original choreography by Maeve Horan-Portelance for UCLA's Icarus Contemporary Dance Company."
 image: "pyramids.jpeg"
 format: html
 ---
 
 # Pyramids
 
-*"Pyramids"* is an original contemporary dance piece choreographed by **Maeve Horan-Portelance** and performed as part of **Icarus Contemporary's annual Spring showcase, SOL**. The piece explores themes of **structure, transformation, and resilience**, using movement to symbolize the balance between **strength and fluidity**.
+*"Pyramids"* is an original contemporary dance piece choreographed by Maeve Horan-Portelance and performed as part of Icarus Contemporary Dance Company's annual Spring showcase, SOL on May 22nd, 2024. The piece explores themes of structure, transformation, and resilience, using movement to symbolize the balance between strength and fluidity.
 
 **Performance Date:** May 22, 2024  
 **Venue:** Royce Hall, UCLA  
 **Performed by:** Icarus Contemporary Dance Company  
+**Choregraphed by:** Maeve Horan-Portelance
 
----
+## Watch the Performance  
 
-## Watch the Performance
-
-<video width="600" controls>
-  <source src="pyramids_video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-[🎥 Download Performance Video (MP4)](pyramids.mp4)
+[▶ Watch on YouTube](https://www.youtube.com/watch?v=-e5zo8glRu4)  
 
 ---
 
 # Lose My Breath
 
-*"Lose My Breath"* is an all-team jazz piece choreographed by **Maeve Horan-Portelance** and performed at the **UCLA men's basketball game halftime show**. The piece showcases **high-energy, commercial jazz** with fast footwork, dynamic formations, and musicality-driven movement.
+*"Lose My Breath"* is an all-team jazz piece choreographed by Maeve Horan-Portelance and performed at the UCLA men's basketball game halftime show on February 8th, 2025. The piece showcases high-energy, commercial jazz with fast footwork, dynamic formations, and musicality-driven movement.
 
 **Performance Date:** February 8, 2025  
 **Venue:** UCLA Pauley Pavilion  
 **Performed by:** Icarus Contemporary Dance Company  
+**Choreographed by:** Maeve Horan-Portelance
 
----
+## Watch the Performance  
 
-## Watch the Performance
-
-<video width="600" controls>
-  <source src="lose_my_breath.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-[🎥 Download Performance Video (MP4)](lose_my_breath.mov)
-
----
-
+[▶ Watch on YouTube](https://www.youtube.com/watch?v=Pj9tFpfD4Cw)  

@@ -7,10 +7,52 @@
     "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
+    "objectID": "Project2.html",
+    "href": "Project2.html",
+    "title": "Project2",
+    "section": "",
+    "text": "print(102803)\n\n[1] 102803"
+  },
+  {
+    "objectID": "Projects/Project2.html",
+    "href": "Projects/Project2.html",
+    "title": "Project2",
+    "section": "",
+    "text": "print(102803)\n\n[1] 102803"
+  },
+  {
+    "objectID": "Projects/Project1.html",
+    "href": "Projects/Project1.html",
+    "title": "Project 1",
+    "section": "",
+    "text": "print(1:10)\n\n [1]  1  2  3  4  5  6  7  8  9 10"
+  },
+  {
+    "objectID": "Projects.html",
+    "href": "Projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nProject 1\n\n\nMaeve Horan-Portelance\n\n\n\n\nProject2\n\n\nMaeve Horan-Portelance\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "personalwebsite",
+    "title": "Maeve Horan-Portelance",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2\n\n\n\nrunif(10)\n\n [1] 0.56941188 0.08551452 0.07721349 0.95113640 0.09957765 0.23367427\n [7] 0.01682887 0.72558534 0.99480384 0.46564160\n\nrnorm(10)\n\n [1]  0.05758062 -0.74086478 -0.40706131 -0.09513172  0.31011738 -0.05430297\n [7] -1.00149806 -1.65685694  0.69493888 -1.02535303\n\n\n\nx = 15\nprint(x)\n\n[1] 15"
+    "text": "Maeve Horan-Portelance is a fourth-year undergraduate at UCLA studying Statistics and Data Science with a minor in Global Health. She is interested in data analytics across all fields, and enjoys combining her quantitative skills with her creative abilities. Maeve has extensive experience in data analysis, experimental design, data mining, statistical modeling, machine learning, R, C++, Python, SQL, and MicroStrategy, and is eager to use this knowledge in future positions. Download my resume here!"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Maeve Horan-Portelance",
+    "section": "Education",
+    "text": "Education\nUniversity of California, Los Angeles | Los Angeles, CA B.S. in Statistics and Data Science | Sept 2021 - June 2025"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Maeve Horan-Portelance",
+    "section": "Experience",
+    "text": "Experience\nUCLA College Academic Counseling | Lead Undergraduate Data Analyst and Peer Counselor | Sept 2023 - Present\nTravelers | Decision Science Intern | June 2024 - Aug 2024\nIBM Accelerate | Program Participant, Client Engineering | June 2023 - Aug 2023\nDavid Geffen School of Medicine | Undergraduate Research Intern, Biomedical Informatics | Oct 2022 - Oct 2023\nPioneer Financial Group | Analytics Intern | June 2022 - Sept 2022"
   }
 ]

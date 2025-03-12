@@ -1,21 +1,32 @@
 ---
-title: "personalwebsite"
+title: "Maeve Horan-Portelance"
+about:
+  template: broadside
+  image: IMG_3348.JPG
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/maevehp28
+    - text: Email
+      url: "mailto::maevehp28@gmail.com"
 ---
 
-This is a Quarto website.
+Maeve Horan-Portelance is a fourth-year undergraduate at UCLA studying Statistics and Data Science with a minor in Global Health. She is interested in data analytics across all fields, and enjoys combining her quantitative skills with her creative abilities. Maeve has extensive experience in data analysis, experimental design, data mining, statistical modeling, machine learning, R, C++, Python, SQL, and MicroStrategy, and is eager to use this knowledge in future positions. Download [my resume](/resume.pdf) here!
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Education
 
-```{r}
-1 + 1
-```
+University of California, Los Angeles | Los Angeles, CA
+B.S. in Statistics and Data Science | Sept 2021 - June 2025
 
-```{r}
-runif(10)
-rnorm(10)
-```
+## Experience
 
-```{r}
-x = 15
-print(x)
-```
+UCLA College Academic Counseling | Lead Undergraduate Data Analyst and Peer Counselor | Sept 2023 - Present
+
+Travelers | Decision Science Intern | June 2024 - Aug 2024
+
+IBM Accelerate | Program Participant, Client Engineering | June 2023 - Aug 2023
+
+David Geffen School of Medicine | Undergraduate Research Intern, Biomedical Informatics | Oct 2022 - Oct 2023
+
+Pioneer Financial Group | Analytics Intern | June 2022 - Sept 2022
+---

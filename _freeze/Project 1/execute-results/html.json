@@ -1,0 +1,15 @@
+{
+  "hash": "53c08f8e688d8349b45fc468ffd85281",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Project 1\"\nauthor: \"Maeve Horan-Portelance\"\n---\n\n::: {.cell}\n\n```{.r .cell-code}\nprint(15)\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 15\n```\n\n\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -2,7 +2,7 @@
 title: "Maeve Horan-Portelance"
 about:
   template: broadside
-  image: "IMG_3348.JPG"
+  image: "Royce_pic.JPG"
   links:
     - icon: github
       text: "GitHub"

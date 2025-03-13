@@ -1,5 +1,5 @@
 ---
-title: "Exploring the Impact of Different Music Types on Heart Rate"
+title: "**Exploring the Impact of Different Music Types on Heart Rate**"
 author: 
   - name: "Maeve Horan-Portelance"
   - name: "Olivia Weisiger"

@@ -1,5 +1,5 @@
 ---
-title: "Bayesian Logistic Regression"
+title: "**Bayesian Logistic Regression**"
 author: "Maeve Horan-Portelance"
 date: "June 14, 2024"
 description: "A comparison of Bayesian and Frequentist logistic regression models using diabetes prediction data."

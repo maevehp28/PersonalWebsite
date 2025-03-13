@@ -1,5 +1,5 @@
 ---
-title: "Choreography Projects"
+title: "**Choreography Projects**"
 author: 
   - name: "Maeve Horan-Portelance"
 date: "May 22, 2024"

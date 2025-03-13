@@ -1,5 +1,5 @@
 ---
-title: "High School Academic Performance Analysis"
+title: "**High School Academic Performance Analysis**"
 author: 
   - name: "Maeve Horan-Portelance"
   - name: "Debanshi Misra"

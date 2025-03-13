@@ -1,5 +1,5 @@
 ---
-title: "Predicting Alcoholic Status Using Vitals"
+title: "**Predicting Alcoholic Status Using Vitals**"
 author: 
   - name: "Maeve Horan-Portelance"
   - name: "John Wu"

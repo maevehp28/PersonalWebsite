@@ -24,13 +24,13 @@ We implemented several classification models and feature selection techniques to
 
 # Methods
 
-## Dataset and Preprocessing
+### Dataset and Preprocessing
 - Data sourced from the National Health Insurance Service in Korea.
 - Features include demographic, behavioral, and biological markers.
 - Applied **missing value imputation** due to ~7% missing values in most predictors.
 - Conducted **Exploratory Data Analysis (EDA)** using ggplot2 in R.
 
-## Missing Value Imputation
+### Missing Value Imputation
 We tested three different **missing data imputation** techniques:  
 - **MICE** (Multivariate Imputation by Chained Equations)  
 - **Hmisc** (Harrell Miscellaneous) imputation  
@@ -38,11 +38,11 @@ We tested three different **missing data imputation** techniques:
 
 Final imputed dataset was selected based on **cross-validation accuracy**.
 
-## Model Selection
+### Model Selection
 We tested multiple models to find the best-performing classifier:  
-- **Random Forest**: Kaggle Score **0.7294**  
-- **Logistic Regression**: Kaggle Score **0.7236**  
-- **XGBoost (Final Model)**: Kaggle Score **0.7315** (Best Performing Model)  
+- **Random Forest**: Kaggle Score of **0.7294**  
+- **Logistic Regression**: Kaggle Score of **0.7236**  
+- **XGBoost (Final Model)**: Kaggle Score of **0.7315** (Best Performing Model)  
 
 We optimized the **XGBoost model** using:  
 - Gradient boosting techniques  
@@ -65,10 +65,10 @@ We optimized the **XGBoost model** using:
 
 This project demonstrated the potential of **machine learning in public health analytics**, particularly in predicting **alcohol consumption behavior based on physiological markers**. 
 
-Future research could explore:
-- Additional predictors (e.g., mental health, dietary factors).
-- Refinement of feature selection methods to improve classification accuracy.
-- Deep learning approaches for better feature extraction.
+Future research could explore:  
+- Additional predictors (e.g., mental health, dietary factors).  
+- Refinement of feature selection methods to improve classification accuracy.  
+- Deep learning approaches for better feature extraction.  
 
 ---
 

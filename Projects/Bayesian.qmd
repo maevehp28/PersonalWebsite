@@ -23,12 +23,12 @@ We tested four key research areas:
 
 # Methods
 
-## **Frequentist Approach**
+### Frequentist Approach
 - Used **Generalized Linear Models (GLM)** for logistic regression.
 - Handled missing data using **MICE (Multiple Imputation by Chained Equations)**.
 - Evaluated model accuracy using **confusion matrices, precision, recall, and AUC scores**.
 
-## **Bayesian Approach**
+### Bayesian Approach
 - Implemented **Bayesian logistic regression** using the `brms` package in R.
 - Imputed missing data using both **MICE** and **BRMS-native imputation**.
 - Explored the impact of different **sparsity priors**:

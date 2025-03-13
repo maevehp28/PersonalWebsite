@@ -30,18 +30,18 @@ This study examines the **effect of different music genres on heart rate**, focu
 
 # Methods
 
-## **Study Design**
-- **Two-Factor Blocked Experiment**:  
+### Study Design
+- Two-Factor Blocked Experiment:  
   - Factor 1: **Music Type** (*Classical, Heavy Metal, Control*)  
   - Factor 2: **Listening Duration** (*10 minutes vs. 20 minutes*)  
 - **Blocking Variable:** Gender (to remove variability in resting heart rates).  
 - **Response Variable:** Change in heart rate (bpm before vs. after treatment).  
 
-## **Participants**
+### Participants
 - **144 participants** from Bonne Santé Island, evenly split by gender.  
 - Randomly assigned to one of six treatment groups (music type × duration).  
 
-## **Data Collection & Preprocessing**
+### Data Collection & Preprocessing
 - Heart rate measured immediately before and after listening to assigned music.  
 - Boxplots and scatterplots used for initial exploratory data analysis (EDA).  
 - Missing data imputed using appropriate statistical techniques.
@@ -50,7 +50,7 @@ This study examines the **effect of different music genres on heart rate**, focu
 
 # Results
 
-## **Key Findings**
+### Key Findings
 1. **Music type significantly affects heart rate** (p < 0.001).  
    - Heavy metal **increases** heart rate significantly compared to both control and classical.  
    - No significant difference between classical and control.  
@@ -60,7 +60,7 @@ This study examines the **effect of different music genres on heart rate**, focu
 
 3. **No significant interaction between music type and listening duration** (p = 0.18).  
 
-## **Statistical Analysis**
+### Statistical Analysis
 - **ANOVA Results**:
   - Music Type: ***p < 0.001*** (Significant)  
   - Listening Duration: *p = 0.021* (Moderately significant)  
@@ -81,12 +81,12 @@ This study examines the **effect of different music genres on heart rate**, focu
 2. **Longer listening durations** slightly **increase the heart rate effect** but do not change the **direction of the impact**.  
 3. **Gender was a significant blocking factor**, confirming that male and female participants have **different baseline heart rates**.
 
-### **Limitations**
+### Limitations
 - **Participants were not randomly selected**, limiting external validity.  
 - **Limited to two music genres**; future studies should examine additional genres (pop, EDM, country, etc.).  
 - **Sample size could be increased** to improve statistical power.  
 
-### **Future Research**
+### Future Research
 - How do **different music genres** affect **other physiological factors** (e.g., blood pressure, mood)?  
 - Can music influence **concentration and academic performance** while studying?  
 - Is there a connection between **music preferences and mental health**?  

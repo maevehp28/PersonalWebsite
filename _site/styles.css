@@ -1,1 +1,27 @@
 /* css styles */
+/* css styles */
+
+/* Set the background color to light blue */
+body {
+    background-color: lightblue;
+}
+
+/* Optional: Customize text color for better contrast */
+body {
+    color: #333; /* Dark gray text for readability */
+}
+
+/* Optional: Style headings */
+h1, h2, h3 {
+    color: #004080; /* Dark blue headings */
+}
+
+/* Optional: Style links */
+a {
+    color: #0077cc; /* Medium blue links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0055aa; /* Darker blue when hovered */
+}

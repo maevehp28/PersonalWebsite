@@ -29,19 +29,19 @@ Our analysis included feature selection, model validation, and cross-validation 
 
 # Methods
 
-## Dataset and Feature Engineering. 
+### Dataset and Feature Engineering. 
 - The dataset consists of high school student profiles, including demographic, academic, and extracurricular data.  
 - We removed highly correlated variables using Variance Inflation Factor (VIF) analysis.  
 - The final model included the following predictors:
   - **Behavioral factors**: Study time, absences, tutoring, and extracurricular activities.
   - **Demographic factors**: Age, gender, ethnicity, and parental education.
 
-## Exploratory Data Analysis (EDA)
+### Exploratory Data Analysis (EDA)
 - **Visualized GPA distribution** across age groups, gender, and ethnicity.
 - **Examined correlations** between study habits, parental involvement, and GPA.
 - **Boxplots and scatterplots** were used to assess trends in study time and absenteeism.
 
-## Multinomial Logistic Regression Model
+### Multinomial Logistic Regression Model
 - Implemented **multinomial logistic regression** to classify GPA into three categories.
 - **Odds ratios** were calculated to interpret predictor significance.
 - **Cross-validation** (10-fold and LOOCV) was used to validate model performance.

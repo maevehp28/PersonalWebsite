@@ -189,8 +189,8 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="methods" class="level1">
 <h1>Methods</h1>
-<section id="dataset-and-preprocessing" class="level2">
-<h2 class="anchored" data-anchor-id="dataset-and-preprocessing">Dataset and Preprocessing</h2>
+<section id="dataset-and-preprocessing" class="level3">
+<h3 class="anchored" data-anchor-id="dataset-and-preprocessing">Dataset and Preprocessing</h3>
 <ul>
 <li>Data sourced from the National Health Insurance Service in Korea.</li>
 <li>Features include demographic, behavioral, and biological markers.</li>
@@ -198,20 +198,20 @@ ul.task-list li input[type="checkbox"] {
 <li>Conducted <strong>Exploratory Data Analysis (EDA)</strong> using ggplot2 in R.</li>
 </ul>
 </section>
-<section id="missing-value-imputation" class="level2">
-<h2 class="anchored" data-anchor-id="missing-value-imputation">Missing Value Imputation</h2>
+<section id="missing-value-imputation" class="level3">
+<h3 class="anchored" data-anchor-id="missing-value-imputation">Missing Value Imputation</h3>
 <p>We tested three different <strong>missing data imputation</strong> techniques:<br>
 - <strong>MICE</strong> (Multivariate Imputation by Chained Equations)<br>
 - <strong>Hmisc</strong> (Harrell Miscellaneous) imputation<br>
 - <strong>Amelia imputation</strong> (multiple imputation assuming normality)</p>
 <p>Final imputed dataset was selected based on <strong>cross-validation accuracy</strong>.</p>
 </section>
-<section id="model-selection" class="level2">
-<h2 class="anchored" data-anchor-id="model-selection">Model Selection</h2>
+<section id="model-selection" class="level3">
+<h3 class="anchored" data-anchor-id="model-selection">Model Selection</h3>
 <p>We tested multiple models to find the best-performing classifier:<br>
-- <strong>Random Forest</strong>: Kaggle Score <strong>0.7294</strong><br>
-- <strong>Logistic Regression</strong>: Kaggle Score <strong>0.7236</strong><br>
-- <strong>XGBoost (Final Model)</strong>: Kaggle Score <strong>0.7315</strong> (Best Performing Model)</p>
+- <strong>Random Forest</strong>: Kaggle Score of <strong>0.7294</strong><br>
+- <strong>Logistic Regression</strong>: Kaggle Score of <strong>0.7236</strong><br>
+- <strong>XGBoost (Final Model)</strong>: Kaggle Score of <strong>0.7315</strong> (Best Performing Model)</p>
 <p>We optimized the <strong>XGBoost model</strong> using:<br>
 - Gradient boosting techniques<br>
 - Feature importance scoring<br>
@@ -237,7 +237,10 @@ ul.task-list li input[type="checkbox"] {
 <section id="conclusion" class="level1">
 <h1>Conclusion</h1>
 <p>This project demonstrated the potential of <strong>machine learning in public health analytics</strong>, particularly in predicting <strong>alcohol consumption behavior based on physiological markers</strong>.</p>
-<p>Future research could explore: - Additional predictors (e.g., mental health, dietary factors). - Refinement of feature selection methods to improve classification accuracy. - Deep learning approaches for better feature extraction.</p>
+<p>Future research could explore:<br>
+- Additional predictors (e.g., mental health, dietary factors).<br>
+- Refinement of feature selection methods to improve classification accuracy.<br>
+- Deep learning approaches for better feature extraction.</p>
 <hr>
 </section>
 <section id="attachments" class="level1">

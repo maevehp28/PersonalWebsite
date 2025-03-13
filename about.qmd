@@ -8,13 +8,13 @@ format: html
 ![ ](headshot.jpeg){width=275px style="border-radius: 10px;"}
 :::
 ::: {.g-col-8}
-My name is Maeve Horan-Portelance, and I am a fourth-year undergraduate student at UCLA, majoring in Statistics and Data Science with minors in Global Health and Film, Television, and Digital Media.  
+Hi! My name is Maeve Horan-Portelance, and I am a fourth-year undergraduate student at UCLA, majoring in Statistics and Data Science with minors in Global Health and Film, Television, and Digital Media.  
 
 I am interested in data analytics across multiple disciplines, including healthcare, business intelligence, and media analytics. My background combines quantitative problem-solving with creative storytelling, allowing me to analyze complex data while communicating meaningful insights.
 
-I have experience in data analysis, regression modeling, machine learning, data visualization, and database management. My technical skills include R, Python, C++, SQL, Snowflake, Tableau, and MicroStrategy. Additionally, my background in creative writing, dance, and jazz drumming gives me a unique approach to problem-solving.  
+I have experience in data analysis, regression modeling, machine learning, data visualization, and database management. My technical skills include R, Python, C++, SQL, Snowflake, Tableau, and MicroStrategy. I have had several  opportunitites to apply these skills in a professional setting, the most recent being my Decision Science internship at Travelers Insurance, where I played a key role in evaluating the efficiency of alternate quote campaigns used in a backend model during the sale of insurance. My work involved leveraging SQL, Excel, and R to analyze large-scale datasets and drive data-informed recommendations.   
 
-Outside of school and work, I enjoy dancing--after 15 years of competitive dance, I joined UCLA's Icarus Contemporary Dance Company, for which I currently serve as Finance Director (June 2023 - present), as well as choreograph and perform. I also enjoy playing the piano and drums, running, hiking, and exploring LA!
+Outside of school and work, I enjoy dancing--after 15 years of competitive dance, I joined UCLA's Icarus Contemporary Dance Company, for which I currently serve as Finance Director (June 2023 - present), as well as choreograph and perform. I also enjoy playing the piano and drums, creative writing and screenwriting, running, hiking, and exploring LA!
 :::
 :::
 
@@ -62,8 +62,8 @@ Expected Graduation: June 2025
 - IBM Python for Data Science and AI Certification (Aug 2023)  
 - Google Data Analytics Certification (Sept 2023) 
 
-## Additional Interests
-- Contemporary and jazz dance and choreography 
+### Additional Interests
+- Contemporary and jazz dance: performance and choreography 
 - Playing piano and jazz drums
 - Screenwriting, storytelling, and other forms of creative writing
 - Running and hiking
@@ -78,7 +78,8 @@ Expected Graduation: June 2025
 :::
 ::: {.g-col-8}
 
-- **Email:** [maevehp28@gmail.com](mailto:maevehp28@gmail.com)  
-- **LinkedIn:** [linkedin.com/in/maevehp](https://www.linkedin.com/in/maevehp/)  
+📧  **Email:** [maevehp28@gmail.com](mailto:maevehp28@gmail.com)  
+🌐 **LinkedIn:** [linkedin.com/in/maevehp](https://www.linkedin.com/in/maevehp/)   
+📍 **Based in:** Los Angeles, CA and Hartford, CT
 :::
 :::
